@@ -10,7 +10,7 @@ services:
     command: bundle exec puma -C config/puma.rb
     env_file: .env
     volumes:
-      - ./awesomeapp:/home/awesomeapp
+      - ../awesomeapp:/home/awesomeapp
       - bundle_cache:/usr/local/bundle
     ports:
       - "3000:3000"
