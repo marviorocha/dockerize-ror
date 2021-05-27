@@ -3,7 +3,7 @@
 This is a template for get start a app to build a awesome Ruby On Rails developer with Docker and Alpine image Ruby Container.
 
 
-# Tecnology and Versions
+## Tecnology and Versions
 
 | Tecnology | Version |
 | ----------- | ----------- |
@@ -12,13 +12,13 @@ This is a template for get start a app to build a awesome Ruby On Rails develope
 
  
 
-# How to use
+## How to use
 
 1. Clone this folder (`git clone https://github.com/marviorocha/dockerize-ror.git`)
 2. Acessing docker folder (`cd dockerize/Docker`)
 3. Rename the env.build to .env (`mv env.build .env`)
  
-# Contributions 
+## Contributions 
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
