@@ -37,7 +37,7 @@ ENV HOME /home/awesomeapp
 
 WORKDIR $HOME
 
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile Gemfile.lock .env ./
 
 RUN bundle config build.nokogiri --use-system-libraries
 
@@ -51,6 +51,7 @@ RUN apk update
 
 
 COPY . ./ 
+
 
 COPY entrypoint.sh /usr/bin/
 RUN chmod +x /usr/bin/entrypoint.sh
